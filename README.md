@@ -2,10 +2,10 @@
 ## Overview
 The analysis applies principal component analysis (PCA) and univariate statistical methods to lipidomic datasets, providing insights into how ad libitum feeding and doxorubicin treatment influence lipid metabolism in rat jejunum and liver tissues.
 
-This project reproduces selected figures from the study:
+* This project reproduces selected figures from the study:
 
     Balgoma D, Kullenberg F, Peters K, Dahlgren D, Heindryckx F, Lennernäs H, Hedeland M. (2022). Orthogonality in Principal Component Analysis Allows the Discovery of Lipids in the Jejunum That Are Independent of Ad Libitum Feeding. Metabolites, 12(9):866. https://doi.org/10.3390/metabo12090866
-
+  
 The primary objective of this project was to practice data analysis in Python by recreating figures using statistical and machine learning approaches. Specifically, I reproducing Figure 2B (PCA loadings of jejunal and hepatic lipidomes) and Figures 4A & 4B (bar plots showing treatment effects on lipid families).
 
 ## Data
@@ -66,6 +66,7 @@ jupyter notebook Balgoma_analysis.ipynb
   
 ## Aknowledgements
 * Data from
+  
     Balgoma D, Kullenberg F, Peters K, Dahlgren D, Heindryckx F, Lennernäs H, Hedeland M. Orthogonality in Principal Component Analysis Allows the Discovery of Lipids in the Jejunum That Are Independent of Ad Libitum Feeding. Metabolites. 2022; 12(9):866. https://doi.org/10.3390/metabo12090866
 
 ## Author
