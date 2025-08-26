@@ -20,30 +20,30 @@ This repository does not host the raw or processed data directly. Please downloa
 * All plots were generated using matplotlib and seaborn.
 * Each figure section in the notebook includes clear variable initialization, processing steps, and visualization code.
   
-1. Data Loading & Preprocessing
+### 1. Data Loading & Preprocessing
 * Imported lipidomic data from the Excel supplementary file.
 * Separated metadata (tissue type, lipid family) from signal data.
 * Standardized signal intensities before multivariate analysis.
 
-2. PCA (Figure 2B)
+### 2. PCA (Figure 2B)
 * Performed PCA on standardized lipidomic data.
 * Visualized loadings for jejunal and liver lipids.
 * Highlighted key lipid families (TG and FA) to illustrate opposing loadings along the first principal component.
 
-3. Bar Plots (Figures 4A & 4B)
+### 3. Bar Plots (Figures 4A & 4B)
 * Figure 4A: Computed a lipidomics-based fasting score (log(TG/FA) ratio) to reflect feeding frequency across treatment conditions.
 * Figure 4B: Summed signal intensities for etherPE lipids containing polyunsaturated fatty acids (PUFAs), visualizing treatment effects.
 * Error bars represent the standard error of the mean (SEM).
 
 ## Results
-1. PCA (Figure 2B):
+### 1. PCA (Figure 2B):
 * Liver lipids are distributed strongly along PC1, reflecting variability driven by digestion status under ad libitum feeding.
 * Jejunal TGs and FAs displayed opposing loadings, confirming an anticorrelated relationship tied to feeding state.
 
-2. Fasting Score (Figure 4A):
+### 2. Fasting Score (Figure 4A):
 * Doxorubicin treatment reduced feeding frequency, as indicated by decreasing TG/FA ratios across stronger/longer treatments.
 
-3. etherPE-PUFAs (Figure 4B):
+### 3. etherPE-PUFAs (Figure 4B):
 * Doxorubicin treatments increased PUFA-containing etherPEs in jejunal tissue, with effects scaling by treatment strength and duration.
 
 These results are consistent with the original study, demonstrating that ad libitum feeding introduces significant confounding effects in lipidomics analyses. The findings also show that PCA can reveal lipid families independent of feeding status, enhancing the reliability of metabolic studies conducted under drug treatment conditions.
