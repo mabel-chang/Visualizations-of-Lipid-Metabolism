@@ -13,6 +13,7 @@ The dataset is available in the supplementary material of the original publicati
 * Supplementary Material 1: _Processed lipidomic data_ (Excel)
   * Variables sheet: metadata on lipid species (tissue origin, lipid family)
   * Signal sheet: processed intensity values for lipid species across experimental conditions
+    
 This repository does not host the raw or processed data directly. Please download the Excel file from the study above and place it in your working directory as <ins>Balgoma_data.xlsx</ins>.
 
 ## Methods
