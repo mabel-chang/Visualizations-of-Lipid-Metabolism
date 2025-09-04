@@ -1,4 +1,4 @@
-# Visualizations of Lipid Metabolism BF550 (F23)
+# Visualizations of Lipid Metabolism BF550
 ## Overview
 The analysis applies principal component analysis (PCA) and univariate statistical methods to lipidomic datasets, providing insights into how ad libitum feeding and doxorubicin treatment influence lipid metabolism in rat jejunum and liver tissues.
 
@@ -73,4 +73,4 @@ jupyter notebook Balgoma_analysis.ipynb
 ## Author
 Mabel Chang
 
-Developed as the final project for BF550: Foundations of Programming, Data Analytics, and Machine Learning in Python at Boston University
+Developed as the final project for BF550: Foundations of Programming, Data Analytics, and Machine Learning in Python at Boston University  (F23)
