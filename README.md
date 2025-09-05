@@ -73,4 +73,4 @@ jupyter notebook Balgoma_analysis.ipynb
 ## Author
 Mabel Chang
 
-Developed as the final project for BF550: Foundations of Programming, Data Analytics, and Machine Learning in Python at Boston University  (F23)
+Developed as the final project for BF550: Foundations of Programming, Data Analytics, and Machine Learning in Python at Boston University (F23), instructed by Dr. Ilija Dukovski
